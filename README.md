@@ -26,8 +26,8 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - run: echo "🎉 The Job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "🐧 This Job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
 
 6-Ajouter et commiter le dossier et le fichier yml
@@ -39,7 +39,7 @@ Exercice 2
 
 On veut maintenant utiliser github action afin d'executer un script python simple
 
-A la racine de votre projet, créer un fichier python job.py qui contient
+A la racine de votre projet, créer un fichier python Job.py qui contient
 a = 2
 print("coucou", a)
 Modifier le fichier yaml pour qu'il lance le fichier python
