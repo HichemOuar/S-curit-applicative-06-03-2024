@@ -21,5 +21,18 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version> <!-- Assurez-vous d'utiliser une version du plugin qui supporte votre version de Java -->
+                <configuration>
+                    <source>17</source> <!-- Version source de Java -->
+                    <target>17</target> <!-- Version cible pour la compilation -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
